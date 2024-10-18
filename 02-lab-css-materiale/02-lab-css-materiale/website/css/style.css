@@ -5,3 +5,8 @@ img{
 body{
     background-color: #e4e4e4;
 }
+
+body >header{
+    background-color: rgb(54, 54, 54);
+
+}
