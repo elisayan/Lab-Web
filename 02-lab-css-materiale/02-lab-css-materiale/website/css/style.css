@@ -1,3 +1,9 @@
+
+body, header, h1{
+    margin: 0;
+    padding: 0;
+}
+
 img{
     width: 50px;
 }
@@ -8,5 +14,12 @@ body{
 
 body > header{
     background-color: rgb(54, 54, 54);
+    /**font-family: 'Courier New', Courier, monospace;      alternativa*/ 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
 
+body > header > h1{
+    font-family: 'Courier New', Courier, monospace;
 }
