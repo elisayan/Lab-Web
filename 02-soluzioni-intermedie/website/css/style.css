@@ -151,3 +151,17 @@ aside>section>ul>li>a {
     font-size: 12px;
     color: #000;
 }
+
+@media screen and (min-width:768px) {
+    nav {
+        margin: 0 10px;
+    }
+
+    nav ul li {
+        width: 19%;
+    }
+
+    nav ul li:not(last-child) {
+        margin-right: 8%;
+    }
+}
