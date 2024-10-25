@@ -62,7 +62,7 @@ main{
     margin: 20px 5% 0;
 }
 
-main > article, aside, main > section{
+main > article, aside, main > section, main > form{
     background-color: #fff;
     border: 1px solid #cacaca;
     margin-bottom: 20px;
@@ -100,7 +100,7 @@ article > footer{
     padding: 20px 5% 5%;
 }
 
-article > footer > a{
+article > footer > a, form ul li input[type="submit"]{
     color: #000;
     background-color: rgb(221, 221, 221);
     text-decoration: none;
@@ -109,11 +109,11 @@ article > footer > a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-main > section{
+main > section, form{
     padding: 20px 5%;
 }
 
-main > section > h2{
+main > section > h2, form > h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0 0 20px;
 }
@@ -132,6 +132,36 @@ table td, table th{
 
 table th{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form ul{
+    list-style: none;
+    width: 80%;
+    margin: 0 10%;
+}
+
+form ul li{
+    margin-bottom: 20px;
+}
+
+
+form ul li:last-child{
+    text-align: right;
+}
+
+form ul li label{
+    display: inline-block;
+    width: 50%;
+}
+
+form ul li input:not([type="submit"]){
+    width: 50%;
+    box-sizing: border-box;
+}
+
+form ul li input[type="submit"]:hover{
+    color: rgb(219, 69, 83);
+    cursor: pointer;
 }
 
 aside{
