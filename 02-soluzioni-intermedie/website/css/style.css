@@ -10,15 +10,12 @@ ul {
     padding: 0;
 }
 
-aside img {
-    width: 50px;
-}
-
 body {
     background-color: #e4e4e4;
 }
 
-body>header {
+body>header,
+body>footer {
     background-color: rgb(54, 54, 54);
     color: #fff;
     text-align: center;
@@ -26,7 +23,8 @@ body>header {
 }
 
 
-body>header>h1 {
+body>header>h1,
+body>footer>p {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -133,16 +131,23 @@ aside>section>ul {
     list-style-type: none;
 }
 
+aside>section>ul>li {
+    margin-bottom: 10px;
+}
+
+aside>section>ul>li>img {
+    float: left;
+    width: 50px;
+    margin-right: 5px;
+}
+
 aside>section>h2 {
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 aside>section>ul>li>a {
     text-decoration: none;
     font-size: 12px;
     color: #000;
-}
-
-footer {
-    margin-top: 100px;
 }
