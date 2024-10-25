@@ -119,6 +119,7 @@ article>footer>a {
 
 aside {
     margin: 0 5% 20px;
+    box-sizing: border-box;
 }
 
 aside>section {
@@ -163,5 +164,19 @@ aside>section>ul>li>a {
 
     nav ul li:not(last-child) {
         margin-right: 8%;
+    }
+
+    main, aside{
+        display: inline-block;
+    }
+
+    main {
+        width: 50%;
+        margin: 20px 5% 0 10%;
+    }
+
+    aside{
+        width: 25%;
+        margin: 20px 10% 0 0;
     }
 }
