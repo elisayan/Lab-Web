@@ -62,7 +62,7 @@ main{
     margin: 20px 5% 0;
 }
 
-main > article, aside{
+main > article, aside, main > section{
     background-color: #fff;
     border: 1px solid #cacaca;
     margin-bottom: 20px;
@@ -106,6 +106,31 @@ article > footer > a{
     text-decoration: none;
     border-radius: 5px;
     padding: 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main>section{
+    padding: 20px 5%;
+}
+
+main>section>h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 0 20px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+table td, table th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+table th{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -174,5 +199,9 @@ aside > section > ul > li > a{
         margin: 20px 10% 0 0;
     }
 
+    table{
+        width: 80%;
+        margin: 0 10%;
+    }
 }
 
